@@ -15,3 +15,6 @@ deploy:
   local_dir: build
   on:
     branch: master
+
+install:
+  yarn
