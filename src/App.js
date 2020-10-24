@@ -9,7 +9,7 @@ import NavBar from './components/Navbar'
 import Footer from './components/Footer'
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename = {process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
             <Route exact path = '/' component = {Main} />
