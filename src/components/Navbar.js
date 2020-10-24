@@ -15,7 +15,7 @@ const Bar = () => (
             <hr />
             <Nav>
                 <Nav.Link href = '/login'>Login</Nav.Link>
-                <Nav.Link href = 'https://discord.gg/nSP7HFT'>Server</Nav.Link>
+                <Nav.Link href = 'https://discord.gg/R5UG5mR'>Server</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
