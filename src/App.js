@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import { init, refresh } from 'aos';
 
 import Main from './routes/Main'
+import Members from './routes/Members'
 import NotFound from './routes/NotFound'
 
 import NavBar from './components/Navbar'
@@ -21,6 +22,7 @@ const App = () => {
             <NavBar />
             <Switch>
                 <Route exact path = '/' component = {Main} />
+                <Route path = '/members' component = {Members} />
                 <Route component = {NotFound} />
             </Switch>
             <Footer />
