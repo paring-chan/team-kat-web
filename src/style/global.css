@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
+html {
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2a2626;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #858585;
+}
+
 body {
+    overflow-x: hidden;
     font-family: 'Black Han Sans', sans-serif !important;
+}
+
+@media (max-width: 350px) {
+    .brandname {
+        display: none;
+    }
 }

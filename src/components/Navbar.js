@@ -3,12 +3,11 @@ import { Navbar, Nav } from 'react-bootstrap'
 
 const Bar = () => (
     <Navbar collapseOnSelect bg = 'light' fixed = 'top' expand = 'lg'>
-        <Navbar.Brand href = '/'>Team KAT</Navbar.Brand>
+        <Navbar.Brand href = '/'><img style = {{width: '50px', height: '50px'}} src = {`${process.env.PUBLIC_URL}/teamkat.png`} alt = 'teamkat logo' /><span className = 'brandname'>Team Kat</span></Navbar.Brand>
         <Navbar.Toggle aria-controls = 'responsive-navbar-nav' />
 
         <Navbar.Collapse id = 'responsive-navbar-nav'>
             <Nav className = 'mr-auto'>
-                <Nav.Link href = '/projects'>Projects</Nav.Link>
                 <Nav.Link href = '/members'>Members</Nav.Link>
                 <Nav.Link href = '/recruit'>Recruit</Nav.Link>
             </Nav>

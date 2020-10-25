@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const DivContainer = styled.div`
-    position:absolute;
-    bottom: 0;
     background-color: grey;
     text-align: center;
     color: white;
