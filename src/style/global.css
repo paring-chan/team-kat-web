@@ -2,6 +2,7 @@
 
 html {
     scrollbar-width: thin;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
