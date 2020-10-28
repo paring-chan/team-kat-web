@@ -5,7 +5,10 @@ const StyledMember = styled(Card)`
     margin-left: 10vw;
     margin-right: 10vw;
     width: 80vw;
-    height: 300px;
+
+    .one, .two {
+        height: 300px;
+    }
 
     .two, .normal {
         display: none;
@@ -52,6 +55,7 @@ const StyledMember = styled(Card)`
             margin-left: auto;
             margin-right: auto;
             margin-top: 30px;
+            margin-bottom: -30px;
         }
     }
 `

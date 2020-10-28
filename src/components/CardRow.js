@@ -18,7 +18,7 @@ const CardRow = ({ className, name, avatar, desc, github, sm1, sm2 }) => {
     :
     (
         <div className = 'normal'>
-            <Card.Img variant = 'top' src = {avatar} align = 'left' />
+            <Card.Img variant = 'top' src = {avatar} />
             <Card.Body className = 'sans'>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>{desc}</Card.Text>
