@@ -8,6 +8,9 @@ import Main from './routes/Main'
 import Members from './routes/Members'
 import NotFound from './routes/NotFound'
 
+import Tos from './routes/Tos'
+import Privacy from './routes/Privacy'
+
 import NavBar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -23,6 +26,8 @@ const App = () => {
             <Switch>
                 <Route exact path = '/' component = {Main} />
                 <Route path = '/members' component = {Members} />
+                <Route path = '/tos' component = {Tos} />
+                <Route path = '/privacy' component = {Privacy} />
                 <Route component = {NotFound} />
             </Switch>
             <Footer />

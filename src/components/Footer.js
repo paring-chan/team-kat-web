@@ -20,7 +20,7 @@ const Footer = () => (
         <p>
             대표자: <a href = 'https://github.com/kiki7000'>kiki7000</a><br />
             <a href = 'https://github.com/Team-Kat'>GITHUB</a> | <a href = 'https://discord.gg/R5UG5mR'>Discord</a><br />
-            <Link to = '/tos'>이용약관</Link> | <Link to = '/policy'>개인정보처리방침</Link><br />
+            <Link to = '/tos'>이용약관</Link> | <Link to = '/privacy'>개인정보처리방침</Link><br />
             © 2020 Team Kat. All Right Reserved.
         </p>
     </DivContainer>
