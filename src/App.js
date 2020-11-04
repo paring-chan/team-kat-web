@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react'
+import { init, refresh } from 'aos';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+const App = () => {
+    useEffect(() => {
+        init();
+        refresh();
+    }, [])
+
+    return (
+        <BrowserRouter basename = {process.env.PUBLIC_URL}>
+            <Switch>
+                <Route exact path = '/' component = {Main} />
+                <Route path = '/tos' component = {Tos} />
+                <Route path = '/privacy' component = {Privacy} />
+                <Route component = {NotFound} />
+            </Switch>
+        </BrowserRouter>
+    )
 }
 
 export default App;
