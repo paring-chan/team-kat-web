@@ -3,6 +3,11 @@ import { init, refresh } from 'aos';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
+import Main from './routes/Main'
+import NotFound from './routes/NotFound'
+import Privacy from './routes/Privacy'
+import Tos from './routes/Tos'
+
 const App = () => {
     useEffect(() => {
         init();
