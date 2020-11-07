@@ -6,6 +6,12 @@
   "author": "pikokr <parangee9706@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html"
   }
 }
