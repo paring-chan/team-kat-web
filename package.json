@@ -1,0 +1,11 @@
+{
+  "name": "team-kat-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Team-Kat/team-kat-web",
+  "author": "pikokr <parangee9706@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
