@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+import './styles/global.css'
 
 import { init, refresh } from 'aos'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
@@ -8,6 +10,8 @@ import Tos from './routes/Tos'
 import Privacy from './routes/Privacy'
 import NotFound from './routes/NotFound'
 
+import NavBar from './components/NavBar'
+
 const App = () => {
     useEffect(() => {
         init()
@@ -16,6 +20,8 @@ const App = () => {
 
     return (
         <BrowserRouter>
+            <NavBar />
+
             <Switch>
                 <Route exact path = '/' component = {Main} />
                 <Route exact path = '/tos' component = {Tos} />
