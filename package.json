@@ -5,13 +5,14 @@
     "repository": "https://github.com/Team-Kat/team-kat-web",
     "author": "Team Kat",
     "license": "MIT",
-
     "dependencies": {
+        "aos": "^2.3.4",
         "parcel": "^1.12.4",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0"
     },
-
     "scripts": {
         "start": "parcel ./public/index.html",
         "build": "parcel build ./public/index.html"
