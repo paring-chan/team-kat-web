@@ -1,17 +1,19 @@
 {
-  "name": "team-kat-web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Team-Kat/team-kat-web",
-  "author": "pikokr <parangee9706@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "parcel": "^1.12.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
-  "scripts": {
-    "start": "parcel ./public/index.html",
-    "build": "parcel build ./public/index.html"
-  }
+    "name": "team-kat-web",
+    "version": "1.0.0",
+    "main": "src/index.jsx",
+    "repository": "https://github.com/Team-Kat/team-kat-web",
+    "author": "Team Kat",
+    "license": "MIT",
+
+    "dependencies": {
+        "parcel": "^1.12.4",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+
+    "scripts": {
+        "start": "parcel ./public/index.html",
+        "build": "parcel build ./public/index.html"
+    }
 }
