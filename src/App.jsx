@@ -9,8 +9,7 @@ import Main from './routes/Main'
 import Tos from './routes/Tos'
 import Privacy from './routes/Privacy'
 import NotFound from './routes/NotFound'
-
-import NavBar from './components/NavBar'
+import Recruit from './routes/Recruit'
 
 const App = () => {
     useEffect(() => {
@@ -20,10 +19,9 @@ const App = () => {
 
     return (
         <BrowserRouter>
-            <NavBar />
-
             <Switch>
                 <Route exact path = '/' component = {Main} />
+                <Route exact path = '/recruit' component = {Recruit} />
                 <Route exact path = '/tos' component = {Tos} />
                 <Route exact path = '/privacy' component = {Privacy} />
                 <Route component = {NotFound} />
