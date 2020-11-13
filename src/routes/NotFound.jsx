@@ -7,6 +7,7 @@ const Container = styled.div`
     width: 100vw;
     height: 100vh;
     text-align: center;
+    overflow-y: hidden;
 
     h1 {
         margin-top: 35vh;
@@ -27,6 +28,16 @@ const Container = styled.div`
 
     button:hover {
         background-color: #989898;
+    }
+
+    @media (max-width: 360px) {
+        h1 {
+            font-size: 10vw;
+        }
+
+        button {
+            width: 70vw;
+        }
     }
 `
 
