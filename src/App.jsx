@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-
 import './styles/global.css'
+import 'aos/dist/aos.css';
 
-import { init, refresh } from 'aos'
+import { init, refresh }  from 'aos'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Main from './routes/Main'
