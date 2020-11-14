@@ -2,7 +2,7 @@ kind: pipeline
 name: production
 
 steps:
-- name: now
+- name: Deploy
   image: one000mph/drone-now
   environment:
       NOW_TOKEN:
