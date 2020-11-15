@@ -1,1 +1,5 @@
-{ "src": "/(.*)", "status": 404, "dest": "/index.html" }
+{
+  "src": "/(.*)",
+  "status": 404,
+  "dest": "/index.html"
+}
