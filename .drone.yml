@@ -1,0 +1,17 @@
+kind: pipeline
+name: production
+
+steps:
+- name: Deploy
+  image: one000mph/drone-now
+  environment:
+      NOW_TOKEN:
+          from_secret: vercel_token
+  settings:
+      secret:
+          front_secret: vercel_token
+      deploy_name: team-kat-web
+      prod: true
+trigger:
+  branch:
+  - master

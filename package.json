@@ -1,17 +1,28 @@
 {
-  "name": "team-kat-web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Team-Kat/team-kat-web",
-  "author": "pikokr <parangee9706@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "parcel": "^1.12.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
-  "scripts": {
-    "start": "parcel ./public/index.html",
-    "build": "parcel build ./public/index.html"
-  }
+    "name": "team-kat-web",
+    "version": "1.0.0",
+    "main": "src/index.jsx",
+    "repository": "https://github.com/Team-Kat/team-kat-web",
+    "author": "Team Kat",
+    "license": "MIT",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-brands-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.12",
+        "aos": "^2.3.4",
+        "node-sass": "^5.0.0",
+        "parcel": "^1.12.4",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-reveal": "^1.2.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "reactjs-popup": "^2.0.4",
+        "styled-components": "^5.2.1"
+    },
+    "scripts": {
+        "start": "parcel ./public/index.html",
+        "build": "parcel build ./public/index.html"
+    }
 }
