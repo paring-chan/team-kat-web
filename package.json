@@ -18,6 +18,7 @@
         "react-reveal": "^1.2.2",
         "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0",
+        "reactjs-popup": "^2.0.4",
         "styled-components": "^5.2.1"
     },
     "scripts": {
