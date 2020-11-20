@@ -46,7 +46,7 @@ const StyledPopup = styled.div`
 
         .info {
             h1, h3 {
-                font-weight: normal;
+                font-weight: 400;
             }
 
             h1 {
